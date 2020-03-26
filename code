@@ -4,11 +4,245 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Zu-shi Menu</title>
+<link href="css/styles2.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 	
+<div>
+	   
+	   <header>
+		   
+		   <div id="logo">
+		     <p>Zu-shi</p>
+		   </div>
+		   
+		   <nav>
+		     <ul>
+				 <li><a href="index.html">Home</a></li> 
+				 <li><a href="menu.html">Menu</a></li> 
+				 <li><a href="booking.html">Book a table</a></li> 
+				 <li><a href="takeaway.html">Takeaway</a></li> 
+				 <li><a href="news.html">What's new</a></li> 
+				 <li><a href="about.html">About</a></li>
+			   
+			 </ul>
+		   </nav>	   
+	   </header>
 	
+   </div>
 	
+   <div class="head-img">
+      <img src="images/sushi-2.jpg" alt="Sushi plate"/> 
+   </div>
+	
+   <article id="intro-sushi">
+	<p>Sushi is Japan's national dish consisting of a mixture of rice and vinegar, along with various toppings (such as fish or shellfish). It is a common misapprehension that all sushi contains or consists of raw fish. Raw fish is a key ingredient, but are is not used in all types of sushi. Sushi can also, for example be deep-fried (tempura).</p>
+   </article>
+	
+	<div id="menu">
+	  <h1>MENU</h1>
+	</div>
+	
+<article id="sushi-menu">
+		
+		<section id="nigiri-ura-maki">
+			
+			<div id="nigiri">
+			
+			<div id="nigiri-1">
+				
+				<h2>Nigiri (2 pieces)</h2>
+				<ul>
+					<li><p>Sake 69, -</p> 
+					    <p>Salmon</p></li> 
+                    <li><p>Maguro 84, -</p>
+                        <p>Tuna</p></li> 
+                    <li><p>Ohio 99, -</p>
+                        <p>Halibut</p></li> 
+                    <li><p>Tako 73, -</p>
+                        <p>Octopus</p></li> 
+                    <li><p>Kingfish Hamachi 115, -</p>
+                        <p>Yellow Tail</p></li> 
+                    <li><p>Ebi 89, -</p>
+                        <p>Steamed dumpling</p></li> 
+                    <li><p>Kuzira 69, -</p>
+                        <p>Whale</p></li> 
+                    <li><p>Hotate 105, -</p>
+                        <p>Scallops</p></li> 
+                    <li><p>Kani 129, -</p>
+                        <p>King Crab</p></li>
+				
+				</ul>
+			
+			
+			</div>
+		  <div id="nigiri-2">
+			  <ul>
+			    <li>
+			      <p>Unagi 109, -</p>
+			      <p>Eel</p>
+		        </li>
+			    <li>
+			      <p>Ise Ebi 139, -</p>
+			      <p>Hummer</p>
+		        </li>
+			    <li>
+			      <p>Ama Ebi 79, -</p>
+			      <p>Raw shrimp</p>
+		        </li>
+			    <li>
+			      <p>Kaki 79, -</p>
+			      <p>Oysters</p>
+		        </li>
+			    <li>
+			      <p>MahiMahi 79, -</p>
+			      <p>Gold Mackerel</p>
+		        </li>
+			    <li>
+			      <p>Toro 129, -</p>
+			      <p>Tuna</p>
+		        </li>
+			    <li>
+			      <p>Toothfish 109, -</p>
+			      <p>Toothfish</p>
+		        </li>
+			    <li>
+			      <p>Suzuki 84, -</p>
+			      <p>Sea bass</p>
+		        </li>
+			    
+		      </ul>
+		  </div>
+				
+				</div>
+				
+			<div id="ura-maki">
+			  <h2>Ura Maki (6 pieces)</h2>
+			  <ul>
+			    <li>
+			      <p>Crispy spicy tuna 109, -</p>
+			      <p>Deep fried in Panco, tuna, cucumber, chilli mayonnaise and sesame oil</p>
+		        </li>
+			    <li>
+			      <p>California maki 125, -</p>
+			      <p>Cooked crab, avocado and sesame seeds</p>
+		        </li>
+			    <li>
+			      <p>Hotate maki 109, -</p>
+			      <p>Scallops, chilli mayonnaise, coriander and sesame seeds</p>
+		        </li>
+			    <li>
+			      <p>Tempura 99, -</p>
+			      <p>Deep fried prawns, avocado and sesame</p>
+		        </li>
+			    <li>
+			      <p>Hot Philadelphia 99, -</p>
+			      <p>Salmon, scallions and hot Philadelphia cream cheese</p>
+		        </li>
+			    <li>
+			      <p>Sakura maki 99, -</p>
+			      <p>Salmon, avocado and sesame</p>
+		        </li>
+			    <li>
+			      <p>Cheesy Eel 99, -</p>
+			      <p>Deep fried maki with eel and cream cheese</p>
+		        </li>
+			    
+		      </ul>
+		  </div>
+			
+			
+		
+		
+		</section>
+  <section id="gunkan-maki-sashimi">
+			<div id="gunkan-maki">
+				<h2>Gunkan Maki (2 pieces)</h2>
+				<ul>
+					<li><p>Ikura 99, -</p>
+						<p>Salmon roe and quail</p>
+					</li>
+					<li><p>Tobiko 99, -</p>
+						<p>Flying Fish roe</p>
+					</li>
+					<li><p>Sake 99, -</p>
+						<p>Spicy salmon and cucumber</p>
+					</li>
+					<li><p>Maguro 109, -</p>
+						<p>Spicy tuna and cucumber</p>
+					</li>
+				
+				
+				</ul>
+			
+			
+			</div>
+			<div id="sashimi">
+			  <h2>Sashimi (3 pieces)</h2>
+			  <ul>
+			    <li>
+			      <p>Smoked halibut with soy sauce, onion and goji berries 189, -</p>
+		        </li>
+			    <li>
+			      <p>Yellowtail and black caviar with oriental sauce 189, -</p>
+		        </li>
+			    <li>
+			      <p>Salmon with yuzu-pepper oil and wasabi sour cream 169, -</p>
+		        </li>
+			    <li>
+			      <p>Tuna in truffle soybean oil 189, -</p>
+		        </li>
+				 <li>
+			      <p>Yellowtail with shiso pesto and ginger, ponzu 179, -</p>
+		        </li>
+				  <li>
+			      <p>Salmon with honey and mango dressing 169, -</p>
+		        </li>
+				  <li>
+			      <p>"Torched" scallops with truffle ponzu and Yuzukosho mayonnaise 179, -</p>
+		        </li>
+				  <li>
+			      <p>Six oysters - served with three different sauces 239, -</p>
+		        </li>
+		      </ul>
+    </div>
+	
+	    
+	
+	    </section>
+		
+			
+	</article>
+	
+	<article id=buttons>
+		
+		<div id="booking-button">
+			<p>Book a table</p>
+		</div>
+		
+		<div id="takeaway-button">
+			<p>Takeaway</p>
+		</div>
+		
+	</article>
+	
+	<footer>
+		
+		<div id="location">
+			<p>Visit us at Gullkroken 7</p>
+		</div>
+		
+		<div id="copyright">
+			<p>Copyright 2020.</p>
+		</div>
+		
+		<div id="social-media">
+			<p><a href="https://www.instagram.com/zu-shi">Instagram</a></p>
+			<p><a href="https://www.twitter.com/zu-shi">Twitter</a></p>
+			<p><a href="https://www.facebook.com/zu-shi">Facebook</a></p>
+		</div>
+		
+	</footer>
 </body>
 </html>
